@@ -1,10 +1,10 @@
 # Mini-Message-Board
-Exercising Node, Express and EJS implementing an MVC pattern.
+## Exercising Node, Express and EJS implementing an MVC pattern.
 
-## views Folder - containing EJS components and views
+### views Folder - containing EJS components and views
 
-## routes Folder - containing the routes for the app
+### routes Folder - containing the routes for the app
 
-## public Folder - containing the publically available assets
+### public Folder - containing the publically available assets
 
-## app.js - containing the configurations and middleware functions
+### app.js - containing the configurations and middleware functions

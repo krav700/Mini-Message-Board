@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <a href="/new">Add new Message</a>
+        <ul>
+            <% messages.forEach((message) => { %>
+                <%- include('messages/message', {message: message}); %>
+            <% }); %>
+        </ul>
+    </body>
+</html>

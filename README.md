@@ -1,4 +1,8 @@
 # Mini-Message-Board
+
+### Check it out [here!](https://mini-message-board-c7gd.onrender.com) 
+##### Deployed using [render](https://render.com)
+
 ## Exercising Node, Express and EJS implementing an MVC pattern.
 
 ### views Folder - containing EJS components and views

@@ -3,12 +3,16 @@
 ### Check it out [here!](https://mini-message-board-c7gd.onrender.com) 
 ##### Deployed using [render](https://render.com)
 
-## Exercising Node, Express and EJS implementing an MVC pattern.
+## Build using Node, Express, EJS, PostgreSQL.
 
-### views Folder - containing EJS components and views
+### controllers - contains the middleware for the requests.
 
-### routes Folder - containing the routes for the app
+### db - contains the database setup and queries.
 
-### public Folder - containing the publically available assets
+### public - contains the publically available assets and styles.
 
-### app.js - containing the configurations and middleware functions
+### routes - contains the routes for the requests and navigation.
+
+### views - contains EJS components and views.
+
+### app.js - contains the configurations and setup for the app.

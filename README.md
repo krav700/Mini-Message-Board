@@ -9,7 +9,7 @@
 
 ### db - contains the database setup and queries.
 
-### public - contains the publically available assets and styles.
+### public - contains the publicly available assets and styles.
 
 ### routes - contains the routes for the requests and navigation.
 

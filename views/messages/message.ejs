@@ -1,5 +1,5 @@
-<li><%= message?.text %></li>
-<li><%= message?.user %></li>
-<li><%= message?.added?.toString().slice(0, 34) %></li>
-<a href=<%= `/${encodeURIComponent(message.user)}/open/${encodeURIComponent(message.text)}/${(encodeURIComponent(message.added))}` %>>Open</a>
+<li><%= message?.message %></li>
+<li><%= message?.username %></li>
+<li><%= message?.time_sent?.toString().slice(0, 34) %></li>
+<a href=<%= `/messages/${message.id}` %>>Open</a>
 <hr />

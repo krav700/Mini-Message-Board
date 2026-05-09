@@ -4,12 +4,16 @@
   "description": "Exercising Node, Express and EJS implementing an MVC pattern.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "populateDB": "node db/populateDB.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "ejs": "^5.0.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "pg": "^8.20.0"
   }
 }

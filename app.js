@@ -3,7 +3,6 @@ const express = require("express");
 const app = express();
 const newRouter = require("./routes/newRouter.js");
 const indexRouter = require("./routes/indexRouter.js");
-const db = require("./db/queries.js");
 const messageRouter = require("./routes/messagesRouter.js");
 
 app.set("views", path.join(__dirname, "views"));

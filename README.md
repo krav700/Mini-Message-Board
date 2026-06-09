@@ -16,4 +16,4 @@
 
 ### app.js - contains the configurations and setup for the app.
 
-##### Deployed using [render](https://render.com) | Database from [aiven](https://aiven.com)
+##### Deployed using [render](https://render.com) | Database from [aiven](https://aiven.io)
